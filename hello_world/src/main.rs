@@ -2,7 +2,7 @@
 #![allow(unused_imports)]
 #![allow(unused_must_use)]
 
-use rand::Rng;
+// use rand::Rng;
 use std::io::stdin;
 
 enum State {
@@ -13,12 +13,12 @@ enum State {
 
 fn main(){
     let code = String::from("1234");
-    // println!("{}",code);
     
     let mut state = State::Locked;
     let mut entry = String::new();
 
     loop {
+        println!("restarting loop");
 
         match state {
             State::Locked => {
