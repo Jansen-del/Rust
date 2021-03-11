@@ -1,1 +1,1 @@
-/home/pi/RustFiles/section4/dataStructure/target/debug/dataStructure: /home/pi/RustFiles/section4/dataStructure/src/main.rs
+/home/pi/Rust/section4/dataStructure/target/debug/dataStructure: /home/pi/Rust/section4/dataStructure/src/main.rs
