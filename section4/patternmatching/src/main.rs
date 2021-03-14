@@ -13,13 +13,13 @@ pub fn pattern_matching(){
     for x in 0..13{
         println!("{}: I have {} oranges", x, how_many(x));
     }
-    let point = (3,4);    
+    let point = (3,6);    
     match point
     {
         (0,0) => println!("origin"),
         (0,y) => println!("Point is on Y axis {}",y),
         (x,0) => println!("Point is on X axis {}",x),
-        (x,y) => println!("Distance from origin is {},{}" , x<<2,y^2)
+        (_,y) => println!("Distance from origin is (?, {}",y^2)
     }
 }
 
